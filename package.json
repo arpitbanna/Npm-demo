@@ -1,0 +1,69 @@
+{
+  "name": "magicui-effects",
+  "version": "1.0.0",
+  "description": "Lightweight, customizable visual particle and animation effects library for modern web and React applications.",
+  "type": "module",
+  "main": "./dist/magicui-effects.cjs",
+  "module": "./dist/magicui-effects.js",
+  "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "import": "./dist/magicui-effects.js",
+      "require": "./dist/magicui-effects.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "types",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc --noEmit",
+    "build:demo": "BUILD_TARGET=demo vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajputshashank0907/magicui-effects.git"
+  },
+  "keywords": [
+    "magicui",
+    "magicui-effects",
+    "effects",
+    "canvas",
+    "particles",
+    "animation",
+    "snow",
+    "confetti",
+    "hearts",
+    "stars",
+    "fireflies",
+    "rain",
+    "matrix",
+    "bubbles",
+    "react",
+    "frontend",
+    "ui"
+  ],
+  "author": "Shashank Singh Rajput",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajputshashank0907/magicui-effects/issues"
+  },
+  "homepage": "https://github.com/rajputshashank0907/magicui-effects#readme",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "happy-dom": "^15.11.7",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4"
+  }
+}
