@@ -8,7 +8,7 @@ const __dirname = dirname(__filename);
 export default defineConfig({
   root: resolve(__dirname),
   test: {
-    environment: 'happy-dom',
+    environment: 'node',
     globals: true,
     setupFiles: [resolve(__dirname, 'tests/setup.js')],
   },

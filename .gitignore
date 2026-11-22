@@ -3,4 +3,6 @@ dist/
 dist-demo/
 *.tgz
 .DS_Store
+.env
+.env.*
 .system_generated/
