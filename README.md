@@ -1,6 +1,17 @@
-# magicui-effects
+# MagicUI Effects Demo (`Npm-demo`)
 
-Lightweight canvas particle effects library for JavaScript and React applications.
+Interactive React + Vite playground demonstrating and testing the canvas particle and visual effects exported by the [`magicui-effects`](https://www.npmjs.com/package/magicui-effects) npm package.
+
+## Quick Start Playground
+
+Run the interactive React demo:
+
+```bash
+npm install
+npm run dev
+```
+
+Visit `http://localhost:5173/` to explore all interactive effects with real-time controls, presets, and fullscreen preview.
 
 ## Installation
 
@@ -66,6 +77,7 @@ export function Celebration() {
 
 ```bash
 npm test
+npm run build:demo
 npm run build
 ```
 
